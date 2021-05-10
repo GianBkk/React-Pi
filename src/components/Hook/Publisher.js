@@ -7,8 +7,8 @@ const Publisher = ({ publish }) => {
   const qosOptions = useContext(QosOption);
 
   const record = {
-    topic: 'testtopic/react',
-    qos: 0,
+    topic: 'urgn/switch/left/control',
+    qos: 2,
   };
 
   const onFinish = (values) => {

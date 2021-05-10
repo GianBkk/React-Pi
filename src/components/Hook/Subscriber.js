@@ -7,8 +7,8 @@ const Subscriber = ({ sub, unSub, showUnsub }) => {
   const qosOptions = useContext(QosOption);
 
   const record = {
-    topic: 'testtopic/react',
-    qos: 0,
+    topic: 'urgn/switch/left/state',
+    qos: 1,
   };
 
   const onFinish = (values) => {
